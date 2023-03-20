@@ -1,17 +1,29 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">CAP2</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <div class="container">
+        <a class="navbar-brand" href="/">CAP2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        <img src="https://lh3.googleusercontent.com/ogw/AAEL6sgE-S0Oux93sH4yWMZMmU5SsvTzvc-gJKa39_k=s32-c-mo" alt="" class="use-avatar"/>
+                        VanLong
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/courses/create"><i lass="fas fa-pen" ></i> Đăng bài viết</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/me/stored/courses"><i class="fas fa-cog" ></i> Danh sách khoá học</a>
+                        <a class="dropdown-item" href="/me/stored/news"><i class="fas fa-file" ></i> Bài viết của tôi</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt" ></i> Đăng xuất</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
 </nav>
